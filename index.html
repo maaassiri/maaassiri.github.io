@@ -25,7 +25,12 @@
                             </div>
                             <script>
                                 function search(){
-                                    let challengesArray =["غيّر لون خلفية الصفحة بشكل عشوائي من خلال النقر على الزر","أنشئ عداد يتزايد من خلاله الرقم ","استعرض منتجات متجر بأسعارها "];
+                                    let challengesArray =["اجعل الصفحة تتفاعل مع المستخدم بحيث تُنشئ صورة في مكان النقر"
+                                    ,"غيّر لون خلفية الصفحة بشكل عشوائي من خلال النقر على الزر"
+                                    ,"أنشئ عداد يتزايد من خلاله الرقم "
+                                    ,"استعرض منتجات متجر بأسعارها",
+                                    "إنشاء حاسبة",
+                                    " خلال النقر على زر HTML تغيير محتوى نص من عناصر "];
                                     let indexOfArray = Math.floor(Math.random()*challengesArray.length);
                                     document.getElementById("txt").innerHTML = challengesArray[indexOfArray];
                                 }
