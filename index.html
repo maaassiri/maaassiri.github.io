@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>أفكار برمجية</title>
+<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <div class="cont">
+        <div class="text">
+            <h2 id="txt">نحن هنا لإمدادك بأفكار برمجية </h2>
+            
+            <div class="center">
+            <button onclick="search()">البحث عن فكرة</button></div></div>
+        
+ <div class="line line-1">
+        <div class="wave wave1" style="background-image: url(tfImage.png);"></div>
+        </div>
+
+<div class="line line-2">
+    <div class="wave wave2" style="background-image: url(sImage.png);"></div>
+                    </div>
+                   
+<div class="line line-3">
+        <div class="wave wave3" style="background-image: url(tImage.png);"></div>
+                                </div>            
+                            </div>
+                            <script>
+                                function search(){
+                                    let challengesArray =["غيّر لون خلفية الصفحة بشكل عشوائي من خلال النقر على الزر","أنشئ عداد يتزايد من خلاله الرقم ","استعرض منتجات متجر بأسعارها "];
+                                    let indexOfArray = Math.floor(Math.random()*challengesArray.length);
+                                    document.getElementById("txt").innerHTML = challengesArray[indexOfArray];
+                                }
+
+                            </script>
+    </body>
+</html>
